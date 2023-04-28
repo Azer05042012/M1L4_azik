@@ -19,4 +19,8 @@ async def hello(ctx):
 async def number(ctx, *choices: '0, 1, 2, 3, 4, 5, 6, 7, 8, 9'):
     await ctx.send(random.choice(choices))
 
+@bot.command()
+async def help(ctx):
+    await ctx.send(f'привет всем! если вы напишете: $number -- для генерирования случайного числа от 0 до 9 {bot.user}')
+
 bot.run("") 
