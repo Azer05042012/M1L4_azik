@@ -19,4 +19,4 @@ async def hello(ctx):
 async def number(ctx, *choices: '0, 1, 2, 3, 4, 5, 6, 7, 8, 9'):
     await ctx.send(random.choice(choices))
 
-bot.run("MTA5NzkzNzA4Njk1MjI2Mzg0Mg.GkA6hY.Uc4SAIyn0g8MRwe_mniSTWi00btpC1J9D7BfuI") 
+bot.run("MTA5NzkzNzA4Njk1MjI2Mzg0Mg.G1nkcP.IMLiIHD-thwcKTnW_00znyIKoaik0CrHmhfx_8") 
